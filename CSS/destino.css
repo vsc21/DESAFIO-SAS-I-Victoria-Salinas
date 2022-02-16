@@ -1,4 +1,28 @@
 /*.Esto es un comentario de CSS puro .*/
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto+Slab:wght@100;400&family=Work+Sans:wght@100&display=swap");
+body {
+  font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Work Sans', sans-serif;
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align); }
+
+/* VARIABLE*/
+/*ANIDAMIENTO*/
+body {
+  background-image: linear-gradient(to right, pink, #f15ec5); }
+  body nav {
+    background-color: #f8b2d9; }
+    body nav div {
+      padding: 10px;
+      border-color: #f8b2d9; }
+      body nav div ul {
+        font-size: medium; }
+
+/* FIN ANIDAMIENTO*/
 #botonProductos {
   margin: 30px;
   text-align: center; }

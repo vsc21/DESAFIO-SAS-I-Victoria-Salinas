@@ -1,2 +1,16 @@
-
-
+#botonProductos {
+    margin: 30px;
+    text-align: center; }
+  
+  #instagram {
+    text-align: center;
+    margin: 20px; }
+  
+  #footer {
+    background-color: #f8b2d9;
+    text-align: center;
+    margin: 20px;
+    margin-left: 100px; }
+  
+  #copyright {
+    text-align: center; }
